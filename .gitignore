@@ -1,0 +1,19 @@
+# secrets
+.env
+
+# runtime data (uploaded PDFs and the vector database)
+/data/
+
+# python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

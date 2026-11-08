@@ -1,0 +1,16 @@
+[
+  {"question": "How many paid leaves does an employee get per year?", "answer_contains": "24 paid leaves"},
+  {"question": "What are the office hours?", "answer_contains": "9:30 AM to 6:30 PM"},
+  {"question": "How much does the Pro plan cost?", "answer_contains": "Rs. 2,999"},
+  {"question": "Can I get a refund on a monthly plan?", "answer_contains": "Monthly plans are not refundable"},
+  {"question": "How long are backups kept?", "answer_contains": "30 days"},
+  {"question": "How fast does support reply to Pro customers?", "answer_contains": "within 4 hours"},
+  {"question": "How long is the password reset link valid?", "answer_contains": "30 minutes"},
+  {"question": "How many days is the free trial?", "answer_contains": "14 days"},
+  {"question": "How many paid leaves can be carried forward?", "answer_contains": "10 leaves"},
+  {"question": "Where are customer servers located?", "answer_contains": "servers located in India"},
+  {"question": "Who is the CEO of the company?", "answer_contains": "Meera Kulkarni"},
+  {"question": "What is the yearly learning budget for each employee?", "answer_contains": "Rs. 20,000"},
+  {"question": "What is the referral bonus?", "answer_contains": "Rs. 25,000"},
+  {"question": "Is two-factor authentication mandatory?", "answer_contains": "mandatory for Enterprise"}
+]
