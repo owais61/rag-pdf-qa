@@ -137,6 +137,18 @@ python -m eval.evaluate --pdf my.pdf --questions my_questions.json --ks 1 3 5
 
 It prints **hit@k** and **MRR** for dense-only, BM25-only and hybrid retrieval, so you can see whether hybrid actually helps on your data. `questions.json` is a list of `{"question": "...", "answer_contains": "..."}`.
 
+### Results
+
+14 questions on the included sample PDF (all-MiniLM-L6-v2).
+
+| mode   | hit@1 | hit@3 | hit@5 | MRR  |
+| ------ | ----- | ----- | ----- | ---- |
+| dense  | 0.71  | 1.00  | 1.00  | 0.82 |
+| bm25   | 1.00  | 1.00  | 1.00  | 1.00 |
+| hybrid | 0.86  | 1.00  | 1.00  | 0.93 |
+
+All three find the right passage within the top 3 for every question. BM25 ranks it first most often here because the questions reuse the document's wording.
+
 The bundled set is small (14 questions on a 2-page PDF), so treat it as a sanity check; use your own documents for meaningful numbers.
 
 ## Tests
